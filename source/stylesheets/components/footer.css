@@ -1,0 +1,34 @@
+.footer {
+  background-color: #090909;
+  color: #FFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.master-container {
+  z-index: 1;
+  position: relative;
+  background-color: #FFF;
+  margin-bottom: 300px;
+}
+
+/*body {
+  padding-bottom: 300px;
+}
+*/
+
+
+.banner-hype {
+  background-image: url('http://unsplash.it/1000/1000');
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

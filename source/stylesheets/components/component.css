@@ -1,0 +1,35 @@
+.product {
+  display: flex;
+  background-color: #E4E4E4;
+  transition: 0.3s all ease;
+}
+
+.product:hover {
+  background-color: #D4D4D4;
+  cursor: pointer;
+}
+
+.product:hover > .product-upvote {
+  font-size: 120%;
+}
+
+.product-upvote {
+  flex: 0 0 10%;
+
+}
+
+.product-image {
+  flex: 0 0 20%;
+}
+
+.product-body {
+  flex: 1 0 auto;
+}
+
+.product-controls {
+  flex: 0 0 20%;
+}
+
+.product-controls a:hover {
+  color: pink;
+}

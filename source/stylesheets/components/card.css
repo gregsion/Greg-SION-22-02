@@ -1,0 +1,39 @@
+.card{
+  position: relative;
+  height: 200px;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../../images/montagne.jpeg');
+  background-size: cover !important;
+  background-position: center;
+
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-user{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+}
+
+.card-user:hover .avatar {
+  border: 2px solid white;
+}
+
+.card-link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
